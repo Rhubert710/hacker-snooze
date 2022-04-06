@@ -20,7 +20,6 @@ fetch("https://hacker-news.firebaseio.com/v0/topstories.json")
             let article = document.createElement('div');
             
             article.classList.add("card", "article", "shadow");
-            article.style = "width: 18rem;"
 
 
             article.innerHTML = 
