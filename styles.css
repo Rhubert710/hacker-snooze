@@ -10,8 +10,35 @@
     font-weight: bold;
     margin-top: 2%;
     margin-left: 1%;
-    margin-bottom: 4%;
+    margin-bottom: 0%;
+    /* display: inline-block; */
+
 }
+    .category{
+        display: inline-block;
+        font-size: 11px;
+        border: 10px solid white;
+        margin: .5%;
+        margin-bottom: 2%;
+        cursor:default;
+    }
+    .category:hover{
+        /* color:white; */
+        /* background-color: #007bff;
+        border-color: #007bff; */
+        font-weight: bold;
+        background-color: #b2ff9e;
+        border-color: #b2ff9e;
+        border-radius: 2px;
+    }
+    
+#current
+{
+    margin-left: 2%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
 .article{
     margin: 2%;
     width: 18rem;
@@ -20,6 +47,7 @@
 }
 .article_rank{
     background-color: chartreuse;
+    
     color: white;
     text-align: center;
     padding-top: 28px;
@@ -61,4 +89,12 @@
     /* .article_rank{
         background-color: aqua;
     } */
+}
+
+@media only screen and (max-width: 880px)
+{
+    #headline{
+        /* font-size: 45px; */
+        font-size: 6vw;
+    }
 }
