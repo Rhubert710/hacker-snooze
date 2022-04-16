@@ -63,7 +63,7 @@ async function get_results(category,name)
     let httpResponse = await fetch(`https://hacker-news.firebaseio.com/v0/${category}.json`);
     let article_array = await httpResponse.json();
 
-    for (let i = 0; i<10; i++)
+    for (let i = 0; i<100; i++)
     {
         let httpResponse = await fetch(`https://hacker-news.firebaseio.com/v0/item/${article_array[i]}.json`)
         let data = await httpResponse.json();
